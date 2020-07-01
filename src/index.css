@@ -1,0 +1,147 @@
+/*{
+  background-color: aquamarine;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p{
+  font-family: 'Piedra', cursive;
+}
+div{
+margin-top: 2%;
+display: flex;
+justify-content:  center;
+align-items: center;
+}
+h1{
+  border-color:blue;
+  text-transform: capitalize;
+  font-size: 50px;
+  padding: 40px;
+  background-color: snow;
+  border-radius: 50%;
+  text-shadow: cadetblue;
+} */
+
+body{
+  background-size: 100% 100%;
+ 
+  background-image: url(https://i2.wp.com/tvrev.com/wp-content/uploads/2020/02/thibault-penin-AWOl7qqsffM-unsplash-scaled.jpg?fit=2560%2C1709&ssl=1)  ;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.cards{
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+    
+    
+}
+.card{
+  background-color: whitesmoke;
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: floralwhite;
+    width: 18%;
+    border-radius: 12%;
+    box-shadow: 0px 12px 12px -7px rgba(0,0,0,0.3);
+    float: left;
+}
+.card:hover{
+  box-shadow:0 0 20px 0 rgba(31, 186, 221, 0.3);
+  transform: translatey(-30px);
+  transition:0.6s;
+}
+.card_img{
+  width: 100%;
+  height: 320px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_body{
+  background-color: whitesmoke;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+ 
+
+}
+
+.card_category{
+  background-color: whitesmoke;
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: red;
+  background-color: cornsilk;
+  background-size: 20% 20%;
+background-image: url(https://i2.wp.com/tvrev.com/wp-content/uploads/2020/02/thibault-penin-AWOl7qqsffM-unsplash-scaled.jpg?fit=2560%2C1709&ssl=1)  ;
+ 
+
+}
+.card_title{
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  background-color: cornsilk;
+  margin-top: 5px;
+  color: red;
+  margin-bottom: 10px;
+  
+
+}
+  button{
+
+  padding:  5px 8px;
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  background-color: cornsilk;
+  border:1px  solid black;
+
+}
+button:hover{
+  background-color: aqua;
+  color: crimson;
+}
+h1{
+  background-size: 20% 20%;
+  text-align: center;
+  background-color: white;
+  background-image: url(https://i2.wp.com/tvrev.com/wp-content/uploads/2020/02/thibault-penin-AWOl7qqsffM-unsplash-scaled.jpg?fit=2560%2C1709&ssl=1)  ;
+ 
+  padding: 30px;
+  color: whitesmoke;
+}
+ background-size: 20% 20%;
+background-image: url(https://i2.wp.com/tvrev.com/wp-content/uploads/2020/02/thibault-penin-AWOl7qqsffM-unsplash-scaled.jpg?fit=2560%2C1709&ssl=1)  ;
+ 
+
+h2{
+  background-size: 20% 20%;
+  text-align: center;
+  background-color: white;
+ 
+ 
+  padding: 30px;
+  color: whitesmoke;
+}
